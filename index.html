@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Simple Product Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: powderblue;">
+
+        <h2 style="text-align: center;">Product form</h2>
+
+        <div class="w3-card-4">
+            <form id="prd_Form">
+                <label for="prd_name">Product Name</label><br>
+                <input type="text" id="prd_name" name="prd_name" placeholder="Enter product name"><br><br>
+
+                <label for="prd_quantity">Quantity</label><br>
+                <input type="number" id="prd_quantity" name="prd_quantity" placeholder="Enter quantity"><br><br>
+
+                <input type="radio" id="yellow" name="prd_color" value="Yellow">
+                <label for="yellow">Yellow</label><br>
+                <input type="radio" id="black" name="prd_color" value="black">
+                <label for="black">Black</label><br>
+                <input type="radio" id="red" name="prd_color" value="red">
+                <label for="red">Red</label><br><br>
+
+                <input type="image" src="https://thefashiontamer.com/wp-content/uploads/2018/01/red-sweater-boys-u0027-sweaters-crewnecks-cardigans-u0026-more-j-crew-amcwbxk-.jpg" alt="product image" width="150" height="150"><br><br>
+
+                <label for="prd_price">Price</label><br>
+                <input type="text" id="prd_price" name="prd_price" value="500 &#x20B9"><br><br>
+
+                <label for="prd_desc">Product description</label><br>
+                <textarea name="prd_desc" rows="5" cols="23" placeholder="Enter product description here"></textarea><br><br>
+                
+                <button class="w3-button w3-blue" type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </div>
+    </body>
+</html>
