@@ -2,13 +2,13 @@
 <html lang="en-US">
     <head>
         <title>Simple Product Form</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body style="background-color: powderblue;">
+    <body>
 
-        <h2 style="text-align: center;">Product Form</h2>
+        <h2 id="heading">Product Form</h2>
 
         <div class="div1">
             <form id="prd_Form">
@@ -37,6 +37,81 @@
 
                 <input type="image" src="https://thefashiontamer.com/wp-content/uploads/2018/01/red-sweater-boys-u0027-sweaters-crewnecks-cardigans-u0026-more-j-crew-amcwbxk-.jpg" alt="product image" width="150" height="150"><br><br>
 
+                <table id="tbl1">
+                    <tr>
+                        <th colspan="7" style="color: brown;">T-shirt size chart</th>
+                    </tr>
+                    
+                    <tr>
+                        <th rowspan="2"></th>
+                        <th colspan="2">Width</th>
+                        <th colspan="2">Length</th>
+                        <th colspan="2">CB Sleeves</th>
+                    </tr>
+                    <tr>
+                        <th>(inches)</th>
+                        <th>(cm)</th>
+                        <th>(inches)</th>
+                        <th>(cm)</th>
+                        <th>(inches)</th>
+                        <th>(cm)</th>
+                    </tr>
+                    <tr>
+                        <th>XS</th>
+                        <td>17.3</td>
+                        <td>44</td>
+                        <td>24.8</td>
+                        <td>63</td>
+                        <td>15.2</td>
+                        <td>38.5</td>
+                    </tr>
+                    <tr>
+                        <th>S</th>
+                        <td>17.3</td>
+                        <td>44</td>
+                        <td>24.8</td>
+                        <td>63</td>
+                        <td>15.2</td>
+                        <td>38.5</td>
+                    </tr>
+                    <tr>
+                        <th>M</th>
+                        <td>17.3</td>
+                        <td>44</td>
+                        <td>24.8</td>
+                        <td>63</td>
+                        <td>15.2</td>
+                        <td>38.5</td>
+                    </tr>
+                    <tr>
+                        <th>L</th>
+                        <td>17.3</td>
+                        <td>44</td>
+                        <td>24.8</td>
+                        <td>63</td>
+                        <td>15.2</td>
+                        <td>38.5</td>
+                    </tr>
+                    <tr>
+                        <th>XL</th>
+                        <td>17.3</td>
+                        <td>44</td>
+                        <td>24.8</td>
+                        <td>63</td>
+                        <td>15.2</td>
+                        <td>38.5</td>
+                    </tr>
+                    <tr>
+                        <th>2X</th>
+                        <td>17.3</td>
+                        <td>44</td>
+                        <td>24.8</td>
+                        <td>63</td>
+                        <td>15.2</td>
+                        <td>38.5</td>
+                    </tr>
+                </table>
+                
                 <p>Product condition</p>
                 <input type="checkbox" id="c1" name="c1" value="Brand New">
                 <label for="c1">Brand New</label><br>
@@ -53,6 +128,13 @@
                 <label for="prd_desc">Product description</label><br>
                 <textarea name="prd_desc" id="prd_desc" rows="5" cols="23" placeholder="Enter product description here"></textarea><br><br>
                 
+                <p style="font-weight: bold;">you can also try your shopping here...</p>
+                <ul style="list-style-type: square;">
+                    <li><a href='https://www.flipkart.com/'>Flipkart</a></li>
+                    <li><a href="https://www.amazon.in/">Amazon</a></li>
+                    <li><a href="https://www.meesho.com/">Meesho</a></li>
+                </ul>
+
                 <button id="submit" type="submit">Submit</button>
                 <button id="reset" type="reset">Reset</button>
             </form>
